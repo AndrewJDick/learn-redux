@@ -16,6 +16,7 @@ const defaultState = {
 	comments
 }
 
+// Our store is an empty object that is going to store all of our site's information
 const store = createStore(rootReducer, defaultState);
 
 // browserHistory is keeping track of which pages have been visted via React Router
